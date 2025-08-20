@@ -1,0 +1,121 @@
+<html>
+<head>
+    <title>Task 2</title>
+    <link rel="shortcut icon" href="task2.png" type="image/x-icon">
+    <style>
+
+        #outer{
+            height: 1000px;
+            width: 1000px;
+            border: 1px solid;
+        }
+
+        #row1,#row2,#row3,#row4{
+            height: 250px;
+        }
+
+        #r1c1{
+            height: 250px;
+            width: 250px;
+            background-color: white;
+            float: left;
+        }
+
+        #r1c2{
+            height: 250px;
+            width: 250px;
+            background-color: yellow;
+            float: left;
+        }
+
+        #r1c3{
+            height: 250px;
+            width: 500px;
+            background-color: red;
+            float: left;
+        }
+
+        #r2c1{
+            height: 250px;
+            width: 250px;
+            background-color: aqua;
+            float: left;
+        }
+
+        #r2c2{
+            height: 250px;
+            width: 250px;
+            background-color: blue;
+            float: left;
+        }
+
+        #r2c3{
+            height: 250px;
+            width: 250px;
+            float: left;
+        }
+
+        #up{
+            height: 125px;
+            background-color: black;
+        }
+
+        #down{
+            height: 125px;
+        }
+
+        #left{
+            height: 125px;
+            width: 125px;
+            background-color: #fc15a6;
+            float: left;
+        }
+
+        #right{
+            height: 125px;
+            width: 125px;
+            background-color: #34fc0c;
+            float: right;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="outer">
+        <div id="row1">
+            <div id="r1c1"></div>
+            <div id="r1c2"></div>
+            <div id="r1c3"></div>
+        </div>
+        <div id="row2">
+            <div id="r2c1"></div>
+            <div id="r2c2"></div>
+            <div id="r2c3">
+                <div id="up"></div>
+                <div id="down">
+                    <div id="left"></div>
+                    <div id="right"></div>
+                </div>
+            </div>
+            <div id="r2c2"></div>
+        </div>
+        <div id="row3">
+            <div id="r2c2"></div>
+            <div id="r2c3">
+                <div id="down">
+                    <div id="right"></div>
+                    <div id="left"></div>
+                </div>
+                <div id="up"></div>
+            </div>
+            <div id="r2c2"></div>
+            <div id="r2c1"></div>
+        </div>
+        <div id="row4">
+            <div id="r1c3"></div>
+            <div id="r1c2"></div>
+            <div id="r1c1"></div>
+        </div>
+    </div>
+</body>
+</html>
